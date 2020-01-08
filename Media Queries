@@ -1,0 +1,147 @@
+/*** Contact Form ***/
+
+@media all and (max-width: 370px) {
+.coco_say_hello_form .et_pb_contact_form_container .et_contact_bottom_container {
+padding: 5px !important;
+}
+.coco_contact_page_footer .et_pb_row, .coco_contact_intro_section .et_pb_row {
+width: 95% !important;
+}
+}
+
+/*** Make Site Wider on Small Screens ***/
+@media only screen and (max-width: 980px) {
+.et_pb_row {
+width: 90%; }
+}
+
+/*** text align left on mobile ***/
+@media only screen and (max-width: 980px) {
+	.align-left-mobile {text-align: left !important;
+	}
+	}
+
+
+/*** navigation  ***/
+@media only screen and (min-width : 981px) {
+li.menu-cta {height: 33px;}}
+
+/*** center and block anything like buttons ***/
+@media (max-width: 479px) {
+.block {
+     display: block !important;
+     text-align: center;}
+	}
+
+/*** all hero images ***/
+@media only screen and (max-width: 768px) {
+	.hero:after {
+background-color: #ffffff;
+content: "";
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+z-index: 1;
+opacity: 0.5;}
+}
+
+/*** Book a Reading Hero Image ***/
+@media only screen and (max-width: 768px) {
+.hero-reading { background-position: 88%; }
+.hero-reading:after {
+background-color: #ffffff;
+content: "";
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+z-index: 1;
+opacity: 0.5;}
+}
+
+/***  Book a Group Form ***/
+/*Responsive*/
+
+@media only screen and (max-width: 1390px) {
+    .coco_say_hello_form .et_pb_row {
+        width: 90% !important;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container .et_pb_contact_main_title {
+        left: 9% !important;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"]:after {
+        top: 0 !important;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"] .input {
+        font-size: 40px !important;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container .et_pb_contact_main_title {
+        left: 20px !important;
+        top: 65px;
+    }
+
+    body .coco_say_hello_form .et_pb_contact_form_container:before {
+        top: 15px !important;
+        right: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .coco_say_hello_form .et_pb_contact_form_container .et_pb_contact_main_title {
+        position: static !important;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p.et_pb_contact_field_half {
+        width: 45%;
+        margin-right: 10%;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"] .input {
+        font-size: 30px !important;
+        margin-left: 0;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"]:after {
+        margin: 0 !important;
+
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .coco_say_hello_form .et_pb_contact_form_container form p.et_pb_contact_field_half {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"] .input {
+        font-size: 18px !important;
+        margin-left: 0;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"]:after {
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container .et_contact_bottom_container {
+        padding: 10px 16px 0;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+}  
