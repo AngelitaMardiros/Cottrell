@@ -1,0 +1,578 @@
+/***************   FONTS    ****************/
+
+
+h1 {
+	font-family: 'brandon-grotesque', serif;}
+
+body {
+	font-family: 'Raleway', sans-serif;}
+
+/*CoCo Empowered Header fonts*/
+body #main-content .prev_post_title,
+body #main-content .next_post_title {
+	font-family: 'brandon-grotesque' !important;
+	color: #d54b65 !important;
+}
+.coco_empowered_header  .et_pb_slide_title {
+		font-family: 'brandon-grotesque' !important;
+}
+
+
+
+
+
+/**************   HomePage   **************/
+
+/*** Hero Header ***/
+
+/* button hover color*/
+
+body .coco_empowered_header .et_pb_slide .et_pb_button_wrapper .et_pb_button:before { background-color: #D54B65 !important;}
+
+/* arrows */
+
+body .coco_empowered_header .et_pb_slider .et-pb-slider-arrows a:before {
+    background-color: #fff !important;
+    color: #A6D168 !important;
+}
+
+
+/* arrows hover */
+body .coco_empowered_header .et_pb_slider .et-pb-slider-arrows a:hover:before {
+    background-color: #D54B65 !important;
+    color: #fff !important;
+}
+
+body .coco_empowered_header .et_pb_slider .et-pb-slider-arrows a div:before {
+    background-color: #fff !important; }
+
+body .coco_empowered_header .et_pb_slider .et-pb-slider-arrows a:hover div:before {
+    background-color: #2b2b33 !important;
+    opacity: 0.7 !important;
+}
+
+
+.coco_empowered_header .et_pb_slider .et-pb-slider-arrows a h2 {
+    color: #d54b65 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+	font-family: 'brandon-grotesque', serif !important;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    z-index: 10;
+    position: relative;
+    transition: 0.3s;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+body .coco_empowered_header .et_pb_slider .et-pb-slider-arrows a p {
+    color: #2F4858 !important;
+    font-size: 20px !important;
+    font-family: 'brandon-grotesque', serif !important;
+}
+
+body .coco_empowered_header .et_pb_slider .et-pb-slider-arrows a:hover p {
+    color: #fff !important;
+}
+
+.coco_empowered_header .et_pb_slider .et-pb-slider-arrows a:hover h2 {
+    color: #a6d168 !important;
+	font-family: 'brandon-grotesque', serif !important;
+}
+
+/*** Slide Numbers ***/
+.coco_empowered_header .et_pb_slider .slider_number {
+    font-size: 16px;
+    color: #2f4858 !important;
+}
+
+
+/*** Services Blurbs ***/
+/* button */
+body #page-container .diana_yes_please_blurbs .et_pb_button_module_wrapper:before {
+    background-color: #fff !important;
+}
+
+/************** About Page **************/
+/*** My Story ***/
+
+body #page-container #main-content .diana_love_this_content .et_pb_promo .et_pb_button_wrapper .et_pb_button:after {
+    content: "Your Abilities" !important;
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    line-height: 120% !important;
+    transform: translate(0, -50%) !important;
+    transition: 0.4s !important;
+    text-align: center !important;
+}
+/************  What To Expect Page  ************/
+/*** FAQ Accordion ***/
+
+/* header */
+
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle h5:hover:before ,
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle h5:hover,
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle.et_pb_toggle_open h5 {
+    color: #2f4858 !important;
+}
+
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle.et_pb_toggle_open h5:before {
+    content: "42" !important;
+    display: block !important;
+     color: #a6d168 !important;
+}
+
+
+/************** Testimonials Page **************/
+/*** CTA ***/
+
+body #page-container #main-content .impi_get_started_cta .et_pb_promo .et_pb_button_wrapper a.et_pb_button:after,
+body #page-container #main-content .impi_get_started_cta .et_pb_promo .et_pb_button_wrapper a.et_pb_button:before {
+    background-color: #a6d168 !important;
+}
+
+/*** Filter Adjustments ***/
+.b3_archive_testimonial_category_list {text-align:center;}
+
+
+/************** BLOG PAGE ********************/
+
+/*** Single Post Layout ***/
+/* Postcard Blog Feed */
+
+.impi_postcard_blog .et_pb_post:before {
+    background-color: #353535 !important;
+}
+
+/* categories */
+
+body .impi_postcard_blog .et_pb_post .categories a {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+	font-weight: 600;
+    color: #d54b65 !important;
+}
+
+/* author */
+
+body .impi_postcard_blog .et_pb_post .post-meta .author.vcard a {
+    color: #ffffff !important;
+}
+
+/* published */
+
+body .impi_postcard_blog .et_pb_post .published {
+    background-color: #ffffff !important;
+}
+
+body .impi_postcard_blog .et_pb_post:hover .published {
+    background-color: #e5c2c2 !important;
+}
+.impi_postcard_blog .et_pb_post .categories a:hover {
+    opacity: 0.3;
+}
+
+
+/************** All Pages Hero CTA Button **************/
+/*** Hero Button ***/
+
+body .coco_wow_case_study .et_pb_promo .et_pb_button_wrapper .et_pb_button:before {
+    background-color: #d54b65;
+    border-radius: 50px;
+}
+
+
+/************** SIGNUP FORMS **************/
+
+
+/*** Footer Events + Classes Sign Up ***/
+
+/*Triangle hover*/
+
+body #page-container .coco_artistic_signup .et_pb_button_module_wrapper a.et_pb_button:hover:before {
+    border-bottom-color: #D54B65 !important;
+}
+
+/*Field text*/
+
+body .coco_artistic_signup .et_pb_newsletter .et_pb_newsletter_fields p label {
+    color: #635c5c !important;
+}
+
+/*** Book a Group Contact Form ***/
+
+.coco_say_hello_form .et-pb-contact-message {
+color: #fff !important;
+font-size: 20px;
+	bottom: 20px;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container .et_contact_bottom_container button.et_pb_contact_submit:before {
+    content: "";
+    display: block;
+    margin: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 46px !important;
+    height: 100% !important;
+    background-color: #d54b65 !important;
+    border-radius: 50px;
+    z-index: -1 !important;
+    transition: 0.3s;
+    position: absolute !important;
+}
+
+body:not(.gecko) .coco_say_hello_form .et_pb_contact_form_container form p select option {
+    color: #2b2b33 !important;
+    font-size: 16px !important;
+}
+.coco_say_hello_form .et_pb_contact_form_container .et_contact_bottom_container {
+    background-color: #fff;
+    padding: 21px 38px 0;
+    position: absolute;
+    bottom: -16px;
+    right: 35px;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container .et_contact_bottom_container button.et_pb_contact_submit:hover:before {
+    width: 100% !important;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container .et_pb_contact {
+    position: static;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container form {
+    margin: 0 !important;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container form p.et_pb_contact_field_half.et_pb_contact_field_last {
+    margin-right: 0 !important;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container form p.et_pb_contact_field_half {
+    width: 42.5%;
+    margin-right: 15%;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container form p select {
+    padding: 14px 0 !important;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container form p {
+    padding: 0 !important;
+    margin-bottom: 38px !important;
+    position: relative;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container form p:nth-child(2):before {
+    content: "";
+    display: block;
+    width: 100%;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container form p[data-type="select"]:after {
+    content: "33" !important;
+    font-family: "ETmodules" !important;
+    height: auto !important;
+    width: auto !important;
+    border: 0;
+    font-size: 22px;
+    color: #fff;
+    line-height: 100%;
+    right: 10px;
+}
+
+
+body:not(.gecko) .coco_say_hello_form .et_pb_contact_form_container form p select option {
+    color: #2b2b33 !important;
+    font-size: 16px !important;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container p:not([data-type="select"]) label {
+    display: block !important;
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff !important;
+    line-height: 120%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: 0.3s;
+    z-index: 15;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container p:not([data-type="select"]):after {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: #d54b65;
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: all .6s cubic-bezier(1, 0, 0, 1);
+    -ms-transform-origin: left;
+    transform-origin: left;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container p:not([data-type="select"]):hover:after {
+    animation: loop-line 1s infinite;
+}
+
+.coco_say_hello_form .et_pb_contact_form_container p:not([data-type="select"]).filled:after,
+.coco_say_hello_form .et_pb_contact_form_container p:not([data-type="select"]).focus:after {
+    animation: none !important;
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.coco_say_hello_form .et_pb_contact_form_container p:not([data-type="select"]):hover label,
+.coco_say_hello_form .et_pb_contact_form_container p:not([data-type="select"]).filled label,
+.coco_say_hello_form .et_pb_contact_form_container p:not([data-type="select"]).focus label {
+    transform: translate(0px, -30px);
+    color: #d54b65 !important;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+#page-container .coco_say_hello_form .et_pb_contact_form_container p textarea::-webkit-input-placeholder,
+#page-container .coco_say_hello_form .et_pb_contact_form_container p input::-webkit-input-placeholder {
+    color: transparent !important;
+}
+
+#page-container .coco_say_hello_form .et_pb_contact_form_container p textarea::-moz-placeholder,
+#page-container .coco_say_hello_form .et_pb_contact_form_container p input::-moz-placeholder {
+    color: transparent !important;
+}
+
+#page-container .coco_say_hello_form .et_pb_contact_form_container p textarea:-ms-input-placeholder,
+#page-container .coco_say_hello_form .et_pb_contact_form_container p input:-ms-input-placeholder {
+    color: transparent !important;
+}
+
+#page-container .coco_say_hello_form .et_pb_contact_form_container p textarea:-moz-placeholder,
+#page-container .coco_say_hello_form .et_pb_contact_form_container p input:-moz-placeholder {
+    color: transparent !important;
+}
+
+#page-container .coco_say_hello_form .et_pb_contact_form_container form textarea:-webkit-autofill:hover,
+#page-container .coco_say_hello_form .et_pb_contact_form_container form textarea:-webkit-autofill:focus,
+#page-container .coco_say_hello_form .et_pb_contact_form_container form textarea:-webkit-autofill,
+#page-container .coco_say_hello_form .et_pb_contact_form_container form input:-webkit-autofill:hover,
+#page-container .coco_say_hello_form .et_pb_contact_form_container form input:-webkit-autofill:focus,
+#page-container .coco_say_hello_form .et_pb_contact_form_container form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #2b2b33 inset !important;
+    -webkit-text-fill-color: #fff !important;
+    background: transparent !important;
+}
+
+@keyframes loop-line {
+    0% {
+        transform-origin: left;
+        animation-fill-mode: forwards;
+        transform: scaleX(0);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+    50% {
+        transform-origin: left;
+        transform: scaleX(1)
+    }
+    50.001% {
+        transform-origin: right;
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+    100% {
+        transform-origin: right;
+        transform: scaleX(0)
+    }
+}
+
+.et_pb_contact_captcha_question {
+float: left;
+}
+body #page-container .input.et_pb_contact_captcha {
+border: 1px solid;
+float: right;
+left: 10px;
+position: relative;
+padding: 5px !important;
+}
+.et_pb_contact_right {
+position: absolute;
+left: -130px;
+color: #fff;
+top: 0;
+}
+.coco_say_hello_form .et_pb_contact_form_container .et_contact_bottom_container {
+padding-bottom: 20px !important;
+}
+@media all and (max-width: 370px) {
+.coco_say_hello_form .et_pb_contact_form_container .et_contact_bottom_container {
+padding: 5px !important;
+}
+.coco_contact_page_footer .et_pb_row, .coco_contact_intro_section .et_pb_row {
+width: 95% !important;
+}
+}
+
+
+/**************  FOOTER  **************/
+/*** Remove Footer & use a global section instead ***/
+
+#main-footer {
+display:none !important;
+}
+
+
+/*******************************************/
+/***************   MOBILE    ***************/
+/*******************************************/
+
+/*** Make Site Wider on Small Screens ***/
+@media only screen and (max-width: 980px) {
+.et_pb_row {
+width: 90%; }
+}
+
+/*** text align left on mobile ***/
+@media only screen and (max-width: 980px) {
+	.align-left-mobile {text-align: left !important;
+	}
+	}
+
+
+/*** navigation  ***/
+@media only screen and (min-width : 981px) {
+li.menu-cta {height: 33px;}}
+
+/*** center and block anything like buttons ***/
+@media (max-width: 479px) {
+.block {
+     display: block !important;
+     text-align: center;}
+	}
+
+/*** all hero images ***/
+@media only screen and (max-width: 768px) {
+	.hero:after {
+background-color: #ffffff;
+content: "";
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+z-index: 1;
+opacity: 0.5;}
+}
+
+/*** Book a Reading Hero Image ***/
+@media only screen and (max-width: 768px) {
+.hero-reading { background-position: 88%; }
+.hero-reading:after {
+background-color: #ffffff;
+content: "";
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+z-index: 1;
+opacity: 0.5;}
+}
+
+/***  Book a Group Form ***/
+/*Responsive*/
+
+@media only screen and (max-width: 1390px) {
+    .coco_say_hello_form .et_pb_row {
+        width: 90% !important;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container .et_pb_contact_main_title {
+        left: 9% !important;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"]:after {
+        top: 0 !important;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"] .input {
+        font-size: 40px !important;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container .et_pb_contact_main_title {
+        left: 20px !important;
+        top: 65px;
+    }
+
+    body .coco_say_hello_form .et_pb_contact_form_container:before {
+        top: 15px !important;
+        right: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .coco_say_hello_form .et_pb_contact_form_container .et_pb_contact_main_title {
+        position: static !important;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p.et_pb_contact_field_half {
+        width: 45%;
+        margin-right: 10%;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"] .input {
+        font-size: 30px !important;
+        margin-left: 0;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"]:after {
+        margin: 0 !important;
+
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .coco_say_hello_form .et_pb_contact_form_container form p.et_pb_contact_field_half {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"] .input {
+        font-size: 18px !important;
+        margin-left: 0;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container form p[data-id="sayhello"]:after {
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container .et_contact_bottom_container {
+        padding: 10px 16px 0;
+    }
+
+    .coco_say_hello_form .et_pb_contact_form_container {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+}  
